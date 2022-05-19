@@ -11,8 +11,10 @@ Eu sugeri, como passo inicial, a identificação de clientes que teriam uma maio
 Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar a partir de agora. Em seguida, o foco será na otimização de cada um dos modelos com a finalidade de obter o melhor resultado para a tomada de decisão da Alura Voz.
 
 <h2 align ="center"> Quais bibliotecas encontrarei nos notebooks?</h2>
+1. Para ler dados: Pandas 🐼|
+2. Para matemática: Numpy, scipy e StatsModels|
+3. Para visualização de dados: Plotly|
 
-* No momento há bibliotecas básicas como: Pandas :panda_face:
 
 <h2 align ="center"> Detalhes de Arquivos:</h2>
 
@@ -22,7 +24,11 @@ Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar 
 * Procura e correção das inconsistências
 * Tradução de colunas e valores
 * Criação de novo arquivo json para uso futuro
-- [ ]  Análise Exploratória
+- [X]  Arquivo **Análise Exploratória** contém as análises das variáveis. Nele realizei:
+* Análise da variável target, visualização da distribuição
+* Comparação entre grupos de clientes evasores e não evasores
+* Visualização dos dados
+* Testes de hipótese
 - [ ] Modelo Machine Learning
 
 <h2 align ="center">Autor</h2>
