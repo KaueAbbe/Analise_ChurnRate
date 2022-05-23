@@ -18,18 +18,19 @@ Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar 
 
 <h2 align ="center"> Detalhes de Arquivos:</h2>
 
-- [X]  Arquivo **DSDataMining_Semana1** contém a mineração de dados recebidos pela API da Alura Voz. Nele realizei:
+- [X]  Arquivo **Semana1** contém a mineração de dados recebidos pela API da Alura Voz. Nele realizei:
 * Leitura, organização e compreensão dos dados
 * Análise de tipo de dados
 * Procura e correção das inconsistências
 * Tradução de colunas e valores
 * Criação de novo arquivo json para uso futuro
-- [X]  Arquivo **Análise Exploratória** contém as análises das variáveis. Nele realizei:
+- [X]  Arquivo **Semana 2** contém as análises das variáveis. Nele realizei:
 * Análise da variável target, visualização da distribuição
 * Comparação entre grupos de clientes evasores e não evasores
 * Visualização dos dados
 * Testes de hipótese
-- [ ] Modelo Machine Learning
+- [ ] Arquivo **Semana 3**
+* Em construção
 
 <h2 align ="center">Autor</h2>
 
