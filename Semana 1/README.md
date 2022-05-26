@@ -1,4 +1,6 @@
-![semana1](https://user-images.githubusercontent.com/68445400/170347968-f256f4a6-053e-4697-be67-1203a723b222.jpg)
+
+![Capa1](https://user-images.githubusercontent.com/68445400/170519891-8307709a-93d4-4e5c-8728-135b963b096d.jpg)
+
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=<COLOR>)
 
