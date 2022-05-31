@@ -22,13 +22,24 @@
 de realizar alterações para que se torne uma tabela de colunas e linhas com seus devidos valores. Esta ação foi feita utilizando método para tratar arquivos json
 e criando pequenos DataFrames e os concatenando.
 
+<img src="https://user-images.githubusercontent.com/68445400/171190530-10913fdc-64c7-4544-94b5-10036695c48c.png" width = "750">
+
+
+
 2. Houveram valores nos dados vieram faltando. As lacunas estavam preenchidas com espaços ou não tinha nada. Para realizar esta correção analisei os motivos que
 levavam àquele valor estar vazio. Para um caso de valores faltando (caso na variável target) foi decidido que não haveria como utilizar esses valores durante as análises
 e criação do modelo, por isso excluí estes valores.<br>
 Para o segundo caso percebi que o motivo de estar com valor vazio devia ao fato de ser da coluna valor total gasto pelo cliente, e se tratava de um cliente que não estava
 nem há mês no contrato. Para este caso alterou-se o valor vazio para zero.<br>
 
+<img src="https://user-images.githubusercontent.com/68445400/171192912-cb2e32d4-adef-4663-9344-d9ea74f7f378.png" width = "750">
+
+
 
 3. Demais ações no dataset foram traduzir as colunas e valores, feito com alteração do nome das colunas e mapeando os valores para trocar pela palavra traduzida. Após isto 
 salvei o dataset corrigido para ser utilizado nas semanas 2 e 3.
+
+<img src ="https://user-images.githubusercontent.com/68445400/171193713-cc0a6e40-58ba-467d-a30e-26a0ccc6f9f0.png" width = "750">
+
+
 <br>
