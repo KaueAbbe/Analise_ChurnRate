@@ -29,8 +29,12 @@ Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar 
 * Comparação entre grupos de clientes evasores e não evasores
 * Visualização dos dados
 * Testes de hipótese
-- [ ] Arquivo **Semana 3**
-* Em construção
+- [X] Arquivo **Semana 3**
+* Separação dos dados analisados
+* Balanceamento dos dados
+* Criação de um modelo Dummy como base
+* Criação de dois modelos de machine learning
+* Classificação do melhor modelo
 
 <h2 align ="center">Autor</h2>
 
