@@ -18,18 +18,18 @@ Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar 
 
 <h2 align ="center"> Detalhes de Arquivos:</h2>
 
-- [X]  Arquivo **Semana1** contém a mineração de dados recebidos pela API da Alura Voz. Nele realizei:
+- [X]  Pasta **Tratamento de Dados** contém a mineração de dados recebidos pela API da Alura Voz. Nele realizei:
 * Leitura, organização e compreensão dos dados
 * Análise de tipo de dados
 * Procura e correção das inconsistências
 * Tradução de colunas e valores
 * Criação de novo arquivo json para uso futuro
-- [X]  Arquivo **Semana 2** contém as análises das variáveis. Nele realizei:
+- [X]  Pasta **Análise Exploratória** contém as análises das variáveis. Nele realizei:
 * Análise da variável target, visualização da distribuição
 * Comparação entre grupos de clientes evasores e não evasores
 * Visualização dos dados
 * Testes de hipótese
-- [X] Arquivo **Semana 3**
+- [X] Pasta **Modelo Machine Learning**
 * Separação dos dados analisados
 * Balanceamento dos dados
 * Criação de um modelo Dummy como base
