@@ -1,5 +1,19 @@
 <h1 align="center"> Bem vinda(o) ao Challenge Data Science 1-Alura😊 </h1>
 
+# Challenge Data Science 1
+
+Previsão de evasão de clientes, com tratamento e análises de dados, e criação e avaliação de modelo de Machine Learning.
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Challenge Data Science 1**
+| :label: Tecnologias | Python 
+| :rocket: URL         | https://github.com/KaueAbbe/Challenge_Data_Science1_Alura
+| :fire: Desafio     | https://www.alura.com.br/challenges/data-science
+
+
+## Detalhes do projeto
+
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=DESENVOLVIMENTO&color=<COLOR>)
 
 <h2 align ="center"> Objetivo do Challenge: Predição de Churn Rate 🤔</h2>
