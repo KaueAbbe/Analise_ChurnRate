@@ -10,6 +10,9 @@ Previsão de evasão de clientes, com tratamento e análises de dados, e criaç�
 | :label: Tecnologias | Python 
 | :rocket: URL         | https://github.com/KaueAbbe/Challenge_Data_Science1_Alura
 | :fire: Desafio     | https://www.alura.com.br/challenges/data-science
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![Twitter post - 1](https://user-images.githubusercontent.com/68445400/201387909-3af468e1-aad1-48eb-99de-02b129b35330.png#vitrinedev)
+
 
 
 ## Detalhes do projeto
