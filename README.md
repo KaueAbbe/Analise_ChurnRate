@@ -4,7 +4,7 @@
 
 Previsão de evasão de clientes, com tratamento e análises de dados, e criação e avaliação de modelo de Machine Learning.
 
-| :placard: Vitrine.Dev |     |
+| :placard: Vitrine.Dev |    [Minha Vitrine](https://cursos.alura.com.br/vitrinedev/kaueabbehausen)   |
 | -------------  | --- |
 | :sparkles: Nome        | **Challenge Data Science 1**
 | :label: Tecnologias | Python, Data Science, Machine Learning, Storytelling, Análise Churn Rate
