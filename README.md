@@ -1,6 +1,6 @@
 <h1 align="center"> Bem vinda(o) ao Challenge Churn Rate-Alura😊 </h1>
 
-# Challenge Data Science 1
+# Churn Rate
 
 Previsão de evasão de clientes, com tratamento e análises de dados, e criação e avaliação de modelo de Machine Learning.
 
