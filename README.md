@@ -1,4 +1,4 @@
-<h1 align="center"> Bem vinda(o) ao Challenge Data Science 1-Alura😊 </h1>
+<h1 align="center"> Bem vinda(o) ao Challenge Churn Rate-Alura😊 </h1>
 
 # Challenge Data Science 1
 
