@@ -6,9 +6,9 @@ Previsão de evasão de clientes, com tratamento e análises de dados, e criaç�
 
 | :placard: Vitrine.Dev |    [Minha Vitrine](https://cursos.alura.com.br/vitrinedev/kaueabbehausen)   |
 | -------------  | --- |
-| :sparkles: Nome        | **Challenge Data Science 1**
+| :sparkles: Nome        | **Churn Rate**
 | :label: Tecnologias | Python, Data Science, Machine Learning, Storytelling, Análise Churn Rate
-| :rocket: URL         | https://github.com/KaueAbbe/Challenge_Data_Science1_Alura
+| :rocket: URL         | https://github.com/KaueAbbe/Challenge_ChurnRate/tree/main
 | :fire: Desafio     | https://www.alura.com.br/challenges/data-science
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![Twitter post - 1](https://user-images.githubusercontent.com/68445400/201387909-3af468e1-aad1-48eb-99de-02b129b35330.png#vitrinedev)
