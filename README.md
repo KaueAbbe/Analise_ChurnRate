@@ -1,4 +1,4 @@
-<h1 align="center"> Bem vinda(o) ao Challenge Churn Rate-Alura😊 </h1>
+<h1 align="center"> Bem vinda(o) a Análise de Churn Rate😊 </h1>
 
 # Churn Rate
 
