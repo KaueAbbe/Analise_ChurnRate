@@ -19,7 +19,7 @@ Previsão de evasão de clientes, com tratamento e análises de dados, e criaç�
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=DESENVOLVIMENTO&color=<COLOR>)
 
-<h2 align ="center"> Objetivo do Challenge: Predição de Churn Rate 🤔</h2>
+<h1 align ="center"> Objetivo do Challenge: Predição de Churn Rate 🤔</h1>
 
 Eu atuo como cientista de dados pela operadora de telecomunicações Alura Voz. Na reunião inicial com as pessoas responsáveis pela área de vendas da empresa, foi explicada a importância de se reduzir a Taxa de Evasão de Clientes, conhecido como **Churn Rate**. Basicamente, o **Churn Rate indica o quanto a empresa perdeu de receita ou clientes em um período de tempo.**
 
@@ -27,40 +27,61 @@ Eu sugeri, como passo inicial, a identificação de clientes que teriam uma maio
 
 Assim, solicitei o conjunto de dados para começar a explorar, tratar e modelar a partir de agora. Em seguida, o foco será na otimização de cada um dos modelos com a finalidade de obter o melhor resultado para a tomada de decisão da Alura Voz.
 
-<h2 align ="center"> Quais bibliotecas encontrarei nos notebooks?</h2>
-1. Para ler dados: Pandas 🐼|
-2. Para matemática: Numpy, scipy e StatsModels|
-3. Para visualização de dados: Plotly|
+<h1 align ="center"> Resumos das Etapas</h1>
 
+<h2 align ="left"> Tratamento dos Dados</h2>
 
-<h2 align ="center"> Detalhes de Arquivos:</h2>
+Realizei tratamento dos dados. Este processo contou as etapas de leitura dos dados, obtenção de informações básicas do dataset, buscando inconsistênicias como valores duplicados e faltantes. Correções foram feitas nas inconsitências encontradas. Como se trata de uma empresa brasileira foi feita a tradução dos dados do inglês para o português. Também alterei tipos de dados e criei o gasto diário do cliente. Salvei os dados tratados para utilizar no processo de análise exploratória.
 
-- [X]  Pasta **Tratamento de Dados** contém a mineração de dados recebidos pela API da Alura Voz. Nele realizei:
 * Leitura, organização e compreensão dos dados
 * Análise de tipo de dados
 * Procura e correção das inconsistências
 * Tradução de colunas e valores
 * Criação de novo arquivo json para uso futuro
-- [X]  Pasta **Análise Exploratória** contém as análises das variáveis. Nele realizei:
+
+<h2 align ="left"> Análise Exploratória e Explanatória</h2>
+
+Realizei análises estatísticas descritivas e inferenciais que resultaram em análises de features para dois grupos de clientes: evasores e remanescentes. Fazendo essa análise bivariada, destaquei as diferenças dos grupos em cada feature que apresentou diferença significativa pós teste de hipótese. Criei gráficos que expõem as diferenças entre os grupos, passando por features como idade do cliente, tipo de contrato, forma de pagamento, produtos usados, gastos dos clientes. E baseado nas análises sugeri como alternativa realizar um Marketing focado no público mais velho, que incentive a troca de serviços, como trocar a internet de DSL por fibra ótica, obtenção da assinatura de TV ou Streaming. Também incentivar a troca do tipo de contrato de mensal para anual, ou criar o tipo semestral. Esses incentivos podem ser feitos a partir de descontos por um período de tempo maior que 3 meses, já que bastante cliente evade com 2 meses e em sua maioria gastam mais que os remanescentes.
+
 * Análise da variável target, visualização da distribuição
-* Comparação entre grupos de clientes evasores e não evasores
-* Visualização dos dados
-* Testes de hipótese
-- [X] Pasta **Modelo Machine Learning**
-* Separação dos dados analisados
-* Balanceamento dos dados
-* Criação de um modelo Dummy como base
-* Criação de dois modelos de machine learning
-* Classificação do melhor modelo
+* Análise de dados qualitativos e quantitativos
+* Análise bivariada entre grupos evasores e não evasores
+* Data visualization
+* Testes de hipóteses
+* Storytelling
 
-<h2 align ="center">Autor</h2>
+<h2 align ="left"> Criação do Modelo Classificação</h2>
+Realizei a criação de um modelo de classificação que classifica com 81% de Recall os clientes em evasores ou não evasores. Inicei o processo com pré-processamento dos dados, fazendo encoding, balanceamento e normalizando. Separei os dados para treinar, testar e validar o modelo. Foi criado baseline e utilizado FeatureImportances para determinar quais features importam na classificação. Seis modelos de classificação foram treinados e testados, utilizando Recall e métrica de Bussines como fator de decisão. Após, dois modelos passaram pelo processo de otimização por Hiperparâmetros, e o melhor modelo foi verificado com 81% de Recall e 6% de perda clientes evasores.
 
-<a >
- <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/68445400/167875457-fac973a9-9ff7-44aa-bd3b-d121e2a805d4.jpg" width="150px;" alt=""/>
- <sub><b></b></sub></a> <a>🚀</a>
+* Pré-Processamento dos Dados
+* Sepração dados treino, teste e validação
+* Definição de Recall e Métrica de Bussines para avaliação
+* Criação de um modelo Dummy e LogisticRegresion como Baseline
+* Criação de seis modelos de machine learning
+* Otimização por Hiperparâmetros do melhor modelo
+
+<h2 align ="center"> Quais bibliotecas usei durante o Challenge?</h2>
+
+1. Tratamento: Pandas 🐼|
+2. Análise Exploratória: Pandas, Numpy, scipy, StatsModels, Plotly |
+3. Criação do Modelo: Pandas, Numpy, Sklearn, YellowBrick, Pickle, seaborn, matplotlib |
+
+
+
+<h2 align ="center">Autor 🚀</h2>
+<a>
+<img style = "border-radius: 50%;" src = https://github.com/KaueAbbe/Analise_ChurnRate/assets/68445400/bd4b5b79-4826-4d72-91e4-5fc7532ac19b width="250px;" alt=""/>
+
+ <sub><b></b></sub></a> 
 
 <h4> Feito com 💙 por Kaue Hermann Abbehausen 👋🏽 
-<br/> Formado em Física na Universidade Federal de Uberlândia e estudante de Data Science</h4>
+<br/> 
+ 
+ 1. Formado em Física na Universidade Federal de Uberlândia
+ 
+ 2. Mestrando em Física Estatística na Universidade de Brasília
+    
+ 3. Aprofundando como Cientista de Dados</h4>
 <h4> Entre em contato por</h4>
 <div align = "center"> 
    <a href="https://www.linkedin.com/in/kaue-abbehausen-5b1922165/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
